@@ -8,7 +8,8 @@ export const Container = styled.div`
   padding: 30px;
   color: #fff;
   font-size: 1.2rem;
-  border-bottom: 1px solid #2a629c;
+  background-color: #fafafa;
+  border-bottom: 1px solid #fafafa;
 
   @media (max-width: 800px){
     height: 70px;
@@ -20,8 +21,8 @@ export const LogoContainer = styled.div`
   border-right: 1px solid #2a629c;
 
   >img {
-    height: 30px;
-    width: 160px;
+    height: 25px;
+    width: 180px;
   }
 
   @media (max-width: 800px){
@@ -87,6 +88,22 @@ export const HiddenMenu = styled(Container)`
   @media (min-width: 800px){
     display: none;
   } 
+`;
+
+export const MobileMenu = styled(Container)`
+  border-bottom-width: 1px;
+  border-color: #fff;
+  border-color: rgba(46, 81, 187, 1);
+  margin-top: -1.25rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  margin-bottom: 1.5rem;
+
+  @media (min-width: 639px){
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+  } 
+
 `;
 
 export const Button = styled.button`

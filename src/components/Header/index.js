@@ -24,13 +24,13 @@ const Header = () => {
   return (
     <>
     <HiddenMenu>
-      <img src={SmallLogo}/>
+      <img src={SmallLogo} alt="Healthbit"/>
       <RiMenu3Line/>
     </HiddenMenu>
     <Container>
       <RightDiv>
         <LogoContainer>
-          <img src={Logo}/>
+          <img src={Logo} alt="Healthbit"/>
         </LogoContainer>
           <p>{menu} <BsArrowRightShort/> {aba}</p>
       </RightDiv>
